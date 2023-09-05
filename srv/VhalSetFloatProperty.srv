@@ -1,0 +1,6 @@
+int64 timestamp
+int32 area_id
+int32 prop
+float32 new_value
+---
+float32 actual_value
