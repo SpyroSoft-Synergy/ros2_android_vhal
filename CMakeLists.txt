@@ -10,11 +10,8 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/VhalSetFloatProperty.srv"
-  "srv/VhalSetInt32Property.srv"
-  "srv/VhalSetInt64Property.srv"
-  "srv/VhalSetUint8Property.srv"
-  "srv/VhalSetStringProperty.srv"
+  "msg/VehicleProperty.msg"
+  "srv/SetVehicleProperty.srv"
 )
 
 if(BUILD_TESTING)

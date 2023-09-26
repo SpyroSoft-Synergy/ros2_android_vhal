@@ -1,6 +1,0 @@
-int64 timestamp
-int32 area_id
-int32 prop
-uint8 new_value
----
-uint8 actual_value
